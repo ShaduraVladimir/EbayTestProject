@@ -1,0 +1,27 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="AllTests" verbose="1" >
+    <test name="SearchTests" >
+        <classes>
+            <class name="tests.SearchTest" />
+        </classes>
+    </test>
+
+    <test name="ShoppingCartTests">
+        <classes>
+            <class name= "tests.ShoppingCartTest"/>
+        </classes>
+    </test>
+
+    <test name="FilterProductsTests">
+        <classes>
+            <class name= "tests.FilterProductsTest"/>
+        </classes>
+    </test>
+
+    <test name="SortProductsTests">
+        <classes>
+            <class name= "tests.SortProductsTest"/>
+        </classes>
+    </test>
+
+</suite>
